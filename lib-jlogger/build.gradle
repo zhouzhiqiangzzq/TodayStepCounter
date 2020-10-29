@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion versions.compileSdk
-    buildToolsVersion '28.0.3'
+    buildToolsVersion '29.0.3'
 
 
 
@@ -12,7 +12,7 @@ android {
         versionCode change.code
         versionName change.name
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
 
     }
 
